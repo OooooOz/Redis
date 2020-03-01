@@ -21,7 +21,7 @@ public class RedisTest {
 		public void addStr(String key,String value){
 			redisTemplate.opsForValue().set(key, value);
 		}
-	
+
 		public void getStr(String key){
 			System.out.println(redisTemplate.opsForValue().get(key));
 		}
