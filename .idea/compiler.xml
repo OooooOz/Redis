@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Jedis" />
+        <module name="JedisSpring" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Jedis" target="1.5" />
+      <module name="JedisSpring" target="1.5" />
       <module name="Redis" target="1.5" />
     </bytecodeTargetLevel>
   </component>

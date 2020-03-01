@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Jedis/Jedis.iml" filepath="$PROJECT_DIR$/Jedis/Jedis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JedisSpring/JedisSpring.iml" filepath="$PROJECT_DIR$/JedisSpring/JedisSpring.iml" />
       <module fileurl="file://$PROJECT_DIR$/Redis.iml" filepath="$PROJECT_DIR$/Redis.iml" />
     </modules>
   </component>
