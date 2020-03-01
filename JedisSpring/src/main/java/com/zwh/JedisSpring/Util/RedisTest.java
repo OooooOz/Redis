@@ -4,8 +4,6 @@ import javax.annotation.Resource;
 
 import com.zwh.JedisSpring.Pojo.Person;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.stereotype.Component;
@@ -23,7 +21,6 @@ public class RedisTest {
 		public void addStr(String key,String value){
 			redisTemplate.opsForValue().set(key, value);
 		}
-		
 	
 		public void getStr(String key){
 			System.out.println(redisTemplate.opsForValue().get(key));
