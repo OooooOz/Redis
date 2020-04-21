@@ -14,7 +14,7 @@ public class TestJedisPool {
 		poolConfig.setMaxWaitMillis(1000);
 		
 		JedisPool jedisPool = new JedisPool(poolConfig, "127.0.0.1",6379);
-		for (int i = 0; i <10; i++) {
+		for (int i = 0; i <20; i++) {
 			Jedis jedis = null;
 			try {
 				jedis= jedisPool.getResource();

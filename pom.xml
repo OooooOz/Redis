@@ -6,7 +6,8 @@
   <name>redis</name>
     <modules>
         <module>Jedis</module>
-      <module>JedisSpring</module>
+        <module>JedisSpring</module>
+        <module>JedisDistributed</module>
     </modules>
     <groupId>com.zwh</groupId>
   <artifactId>redis</artifactId>

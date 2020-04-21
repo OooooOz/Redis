@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="JedisDistributed:war">
+    <output-path>$PROJECT_DIR$/JedisDistributed/target</output-path>
+    <root id="archive" name="JedisDistributed.war">
+      <element id="artifact" artifact-name="JedisDistributed:war exploded" />
+    </root>
+  </artifact>
+</component>
